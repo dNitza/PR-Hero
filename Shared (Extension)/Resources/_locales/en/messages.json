@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is PR Hero. You should tell us what your extension does here.",
+        "message": "PR hero will save you from accidentally starting a PR review on GitHub when you meant to add a single comment.",
         "description": "Description of what the extension does."
     }
 }

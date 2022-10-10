@@ -7,54 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D4879F128F431D100A7ED47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4879F028F431D100A7ED47 /* AppDelegate.swift */; };
-		4D4879F328F431D100A7ED47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4879F228F431D100A7ED47 /* SceneDelegate.swift */; };
-		4D4879F628F431D100A7ED47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879F428F431D100A7ED47 /* LaunchScreen.storyboard */; };
-		4D4879F928F431D100A7ED47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879F728F431D100A7ED47 /* Main.storyboard */; };
 		4D487A0228F431D100A7ED47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D487A0128F431D100A7ED47 /* AppDelegate.swift */; };
 		4D487A0528F431D100A7ED47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D487A0328F431D100A7ED47 /* Main.storyboard */; };
-		4D487A0C28F431D100A7ED47 /* PR Hero Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4D487A0B28F431D100A7ED47 /* PR Hero Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D487A1628F431D100A7ED47 /* PR Hero Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4D487A1528F431D100A7ED47 /* PR Hero Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4D487A1C28F431D100A7ED47 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879D728F431CF00A7ED47 /* Main.html */; };
 		4D487A1D28F431D100A7ED47 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879D728F431CF00A7ED47 /* Main.html */; };
-		4D487A1E28F431D100A7ED47 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879D928F431CF00A7ED47 /* Icon.png */; };
 		4D487A1F28F431D100A7ED47 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879D928F431CF00A7ED47 /* Icon.png */; };
-		4D487A2028F431D100A7ED47 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879DA28F431CF00A7ED47 /* Style.css */; };
 		4D487A2128F431D100A7ED47 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879DA28F431CF00A7ED47 /* Style.css */; };
-		4D487A2228F431D100A7ED47 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879DB28F431CF00A7ED47 /* Script.js */; };
 		4D487A2328F431D100A7ED47 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879DB28F431CF00A7ED47 /* Script.js */; };
-		4D487A2428F431D100A7ED47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4879DC28F431CF00A7ED47 /* ViewController.swift */; };
 		4D487A2528F431D100A7ED47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4879DC28F431CF00A7ED47 /* ViewController.swift */; };
-		4D487A2628F431D100A7ED47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879DD28F431D000A7ED47 /* Assets.xcassets */; };
 		4D487A2728F431D100A7ED47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879DD28F431D000A7ED47 /* Assets.xcassets */; };
-		4D487A2828F431D100A7ED47 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4879DF28F431D000A7ED47 /* SafariWebExtensionHandler.swift */; };
 		4D487A2928F431D100A7ED47 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4879DF28F431D000A7ED47 /* SafariWebExtensionHandler.swift */; };
-		4D487A2A28F431D100A7ED47 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E128F431D000A7ED47 /* _locales */; };
 		4D487A2B28F431D100A7ED47 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E128F431D000A7ED47 /* _locales */; };
-		4D487A2C28F431D100A7ED47 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E228F431D000A7ED47 /* images */; };
 		4D487A2D28F431D100A7ED47 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E228F431D000A7ED47 /* images */; };
-		4D487A2E28F431D100A7ED47 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E328F431D000A7ED47 /* manifest.json */; };
 		4D487A2F28F431D100A7ED47 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E328F431D000A7ED47 /* manifest.json */; };
-		4D487A3028F431D100A7ED47 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E428F431D000A7ED47 /* background.js */; };
-		4D487A3128F431D100A7ED47 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E428F431D000A7ED47 /* background.js */; };
-		4D487A3228F431D100A7ED47 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E528F431D000A7ED47 /* content.js */; };
 		4D487A3328F431D100A7ED47 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E528F431D000A7ED47 /* content.js */; };
-		4D487A3428F431D100A7ED47 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E628F431D000A7ED47 /* popup.html */; };
-		4D487A3528F431D100A7ED47 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E628F431D000A7ED47 /* popup.html */; };
-		4D487A3628F431D100A7ED47 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E728F431D000A7ED47 /* popup.css */; };
-		4D487A3728F431D100A7ED47 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E728F431D000A7ED47 /* popup.css */; };
-		4D487A3828F431D100A7ED47 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E828F431D000A7ED47 /* popup.js */; };
-		4D487A3928F431D100A7ED47 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D4879E828F431D000A7ED47 /* popup.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4D487A0D28F431D100A7ED47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D4879D128F431CF00A7ED47 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D487A0A28F431D100A7ED47;
-			remoteInfo = "PR Hero Extension (iOS)";
-		};
 		4D487A1728F431D100A7ED47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4D4879D128F431CF00A7ED47 /* Project object */;
@@ -65,17 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4D487A3F28F431D100A7ED47 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				4D487A0C28F431D100A7ED47 /* PR Hero Extension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D487A4628F431D100A7ED47 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,44 +58,18 @@
 		4D4879E128F431D000A7ED47 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		4D4879E228F431D000A7ED47 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		4D4879E328F431D000A7ED47 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		4D4879E428F431D000A7ED47 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		4D4879E528F431D000A7ED47 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		4D4879E628F431D000A7ED47 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		4D4879E728F431D000A7ED47 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		4D4879E828F431D000A7ED47 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
-		4D4879ED28F431D100A7ED47 /* PR Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PR Hero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D4879F028F431D100A7ED47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D4879F228F431D100A7ED47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D4879F528F431D100A7ED47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4D4879F828F431D100A7ED47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D4879FA28F431D100A7ED47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D4879FF28F431D100A7ED47 /* PR Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PR Hero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D487A0128F431D100A7ED47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D487A0428F431D100A7ED47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D487A0628F431D100A7ED47 /* PR Hero.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PR Hero.entitlements"; sourceTree = "<group>"; };
-		4D487A0B28F431D100A7ED47 /* PR Hero Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PR Hero Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D487A1028F431D100A7ED47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D487A1528F431D100A7ED47 /* PR Hero Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PR Hero Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D487A1A28F431D100A7ED47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D487A1B28F431D100A7ED47 /* PR Hero.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PR Hero.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D4879EA28F431D100A7ED47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D4879FC28F431D100A7ED47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D487A0828F431D100A7ED47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -159,9 +91,7 @@
 			children = (
 				4D4879D528F431CF00A7ED47 /* Shared (App) */,
 				4D4879DE28F431D000A7ED47 /* Shared (Extension) */,
-				4D4879EF28F431D100A7ED47 /* iOS (App) */,
 				4D487A0028F431D100A7ED47 /* macOS (App) */,
-				4D487A0F28F431D100A7ED47 /* iOS (Extension) */,
 				4D487A1928F431D100A7ED47 /* macOS (Extension) */,
 				4D4879EE28F431D100A7ED47 /* Products */,
 			);
@@ -203,11 +133,7 @@
 				4D4879E128F431D000A7ED47 /* _locales */,
 				4D4879E228F431D000A7ED47 /* images */,
 				4D4879E328F431D000A7ED47 /* manifest.json */,
-				4D4879E428F431D000A7ED47 /* background.js */,
 				4D4879E528F431D000A7ED47 /* content.js */,
-				4D4879E628F431D000A7ED47 /* popup.html */,
-				4D4879E728F431D000A7ED47 /* popup.css */,
-				4D4879E828F431D000A7ED47 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -215,24 +141,10 @@
 		4D4879EE28F431D100A7ED47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D4879ED28F431D100A7ED47 /* PR Hero.app */,
 				4D4879FF28F431D100A7ED47 /* PR Hero.app */,
-				4D487A0B28F431D100A7ED47 /* PR Hero Extension.appex */,
 				4D487A1528F431D100A7ED47 /* PR Hero Extension.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4D4879EF28F431D100A7ED47 /* iOS (App) */ = {
-			isa = PBXGroup;
-			children = (
-				4D4879F028F431D100A7ED47 /* AppDelegate.swift */,
-				4D4879F228F431D100A7ED47 /* SceneDelegate.swift */,
-				4D4879F428F431D100A7ED47 /* LaunchScreen.storyboard */,
-				4D4879F728F431D100A7ED47 /* Main.storyboard */,
-				4D4879FA28F431D100A7ED47 /* Info.plist */,
-			);
-			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
 		4D487A0028F431D100A7ED47 /* macOS (App) */ = {
@@ -243,14 +155,6 @@
 				4D487A0628F431D100A7ED47 /* PR Hero.entitlements */,
 			);
 			path = "macOS (App)";
-			sourceTree = "<group>";
-		};
-		4D487A0F28F431D100A7ED47 /* iOS (Extension) */ = {
-			isa = PBXGroup;
-			children = (
-				4D487A1028F431D100A7ED47 /* Info.plist */,
-			);
-			path = "iOS (Extension)";
 			sourceTree = "<group>";
 		};
 		4D487A1928F431D100A7ED47 /* macOS (Extension) */ = {
@@ -265,25 +169,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D4879EC28F431D100A7ED47 /* PR Hero (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D487A4028F431D100A7ED47 /* Build configuration list for PBXNativeTarget "PR Hero (iOS)" */;
-			buildPhases = (
-				4D4879E928F431D100A7ED47 /* Sources */,
-				4D4879EA28F431D100A7ED47 /* Frameworks */,
-				4D4879EB28F431D100A7ED47 /* Resources */,
-				4D487A3F28F431D100A7ED47 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D487A0E28F431D100A7ED47 /* PBXTargetDependency */,
-			);
-			name = "PR Hero (iOS)";
-			productName = "PR Hero (iOS)";
-			productReference = 4D4879ED28F431D100A7ED47 /* PR Hero.app */;
-			productType = "com.apple.product-type.application";
-		};
 		4D4879FE28F431D100A7ED47 /* PR Hero (macOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D487A4728F431D100A7ED47 /* Build configuration list for PBXNativeTarget "PR Hero (macOS)" */;
@@ -302,23 +187,6 @@
 			productName = "PR Hero (macOS)";
 			productReference = 4D4879FF28F431D100A7ED47 /* PR Hero.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4D487A0A28F431D100A7ED47 /* PR Hero Extension (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D487A3C28F431D100A7ED47 /* Build configuration list for PBXNativeTarget "PR Hero Extension (iOS)" */;
-			buildPhases = (
-				4D487A0728F431D100A7ED47 /* Sources */,
-				4D487A0828F431D100A7ED47 /* Frameworks */,
-				4D487A0928F431D100A7ED47 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PR Hero Extension (iOS)";
-			productName = "PR Hero Extension (iOS)";
-			productReference = 4D487A0B28F431D100A7ED47 /* PR Hero Extension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 		4D487A1428F431D100A7ED47 /* PR Hero Extension (macOS) */ = {
 			isa = PBXNativeTarget;
@@ -347,13 +215,7 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					4D4879EC28F431D100A7ED47 = {
-						CreatedOnToolsVersion = 14.0;
-					};
 					4D4879FE28F431D100A7ED47 = {
-						CreatedOnToolsVersion = 14.0;
-					};
-					4D487A0A28F431D100A7ED47 = {
 						CreatedOnToolsVersion = 14.0;
 					};
 					4D487A1428F431D100A7ED47 = {
@@ -374,29 +236,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D4879EC28F431D100A7ED47 /* PR Hero (iOS) */,
 				4D4879FE28F431D100A7ED47 /* PR Hero (macOS) */,
-				4D487A0A28F431D100A7ED47 /* PR Hero Extension (iOS) */,
 				4D487A1428F431D100A7ED47 /* PR Hero Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4D4879EB28F431D100A7ED47 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D487A1E28F431D100A7ED47 /* Icon.png in Resources */,
-				4D4879F628F431D100A7ED47 /* LaunchScreen.storyboard in Resources */,
-				4D487A1C28F431D100A7ED47 /* Main.html in Resources */,
-				4D487A2228F431D100A7ED47 /* Script.js in Resources */,
-				4D487A2628F431D100A7ED47 /* Assets.xcassets in Resources */,
-				4D4879F928F431D100A7ED47 /* Main.storyboard in Resources */,
-				4D487A2028F431D100A7ED47 /* Style.css in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D4879FD28F431D100A7ED47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,63 +256,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D487A0928F431D100A7ED47 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D487A3028F431D100A7ED47 /* background.js in Resources */,
-				4D487A3628F431D100A7ED47 /* popup.css in Resources */,
-				4D487A3428F431D100A7ED47 /* popup.html in Resources */,
-				4D487A2C28F431D100A7ED47 /* images in Resources */,
-				4D487A2E28F431D100A7ED47 /* manifest.json in Resources */,
-				4D487A2A28F431D100A7ED47 /* _locales in Resources */,
-				4D487A3228F431D100A7ED47 /* content.js in Resources */,
-				4D487A3828F431D100A7ED47 /* popup.js in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D487A1328F431D100A7ED47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D487A3128F431D100A7ED47 /* background.js in Resources */,
-				4D487A3728F431D100A7ED47 /* popup.css in Resources */,
-				4D487A3528F431D100A7ED47 /* popup.html in Resources */,
 				4D487A2D28F431D100A7ED47 /* images in Resources */,
 				4D487A2F28F431D100A7ED47 /* manifest.json in Resources */,
 				4D487A2B28F431D100A7ED47 /* _locales in Resources */,
 				4D487A3328F431D100A7ED47 /* content.js in Resources */,
-				4D487A3928F431D100A7ED47 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D4879E928F431D100A7ED47 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D487A2428F431D100A7ED47 /* ViewController.swift in Sources */,
-				4D4879F128F431D100A7ED47 /* AppDelegate.swift in Sources */,
-				4D4879F328F431D100A7ED47 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D4879FB28F431D100A7ED47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D487A2528F431D100A7ED47 /* ViewController.swift in Sources */,
 				4D487A0228F431D100A7ED47 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D487A0728F431D100A7ED47 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D487A2828F431D100A7ED47 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,11 +290,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4D487A0E28F431D100A7ED47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D487A0A28F431D100A7ED47 /* PR Hero Extension (iOS) */;
-			targetProxy = 4D487A0D28F431D100A7ED47 /* PBXContainerItemProxy */;
-		};
 		4D487A1828F431D100A7ED47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4D487A1428F431D100A7ED47 /* PR Hero Extension (macOS) */;
@@ -500,22 +304,6 @@
 				4D4879D828F431CF00A7ED47 /* Base */,
 			);
 			name = Main.html;
-			sourceTree = "<group>";
-		};
-		4D4879F428F431D100A7ED47 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D4879F528F431D100A7ED47 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4D4879F728F431D100A7ED47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D4879F828F431D100A7ED47 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		4D487A0328F431D100A7ED47 /* Main.storyboard */ = {
@@ -638,150 +426,11 @@
 			};
 			name = Release;
 		};
-		4D487A3D28F431D100A7ED47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6362YD9Z45;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "PR Hero Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nitza.PR-Hero.Extension";
-				PRODUCT_NAME = "PR Hero Extension";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4D487A3E28F431D100A7ED47 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6362YD9Z45;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "PR Hero Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nitza.PR-Hero.Extension";
-				PRODUCT_NAME = "PR Hero Extension";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4D487A4128F431D100A7ED47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6362YD9Z45;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "PR Hero";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nitza.PR-Hero";
-				PRODUCT_NAME = "PR Hero";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4D487A4228F431D100A7ED47 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6362YD9Z45;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "PR Hero";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nitza.PR-Hero";
-				PRODUCT_NAME = "PR Hero";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4D487A4428F431D100A7ED47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/PR Hero.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6362YD9Z45;
@@ -814,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/PR Hero.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6362YD9Z45;
@@ -848,6 +498,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/PR Hero.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -855,6 +506,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "PR Hero";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -862,7 +514,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -883,6 +535,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/PR Hero.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -890,6 +543,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "PR Hero";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -897,7 +551,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -920,24 +574,6 @@
 			buildConfigurations = (
 				4D487A3A28F431D100A7ED47 /* Debug */,
 				4D487A3B28F431D100A7ED47 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D487A3C28F431D100A7ED47 /* Build configuration list for PBXNativeTarget "PR Hero Extension (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D487A3D28F431D100A7ED47 /* Debug */,
-				4D487A3E28F431D100A7ED47 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D487A4028F431D100A7ED47 /* Build configuration list for PBXNativeTarget "PR Hero (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D487A4128F431D100A7ED47 /* Debug */,
-				4D487A4228F431D100A7ED47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
